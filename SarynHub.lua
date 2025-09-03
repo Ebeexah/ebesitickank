@@ -6,7 +6,7 @@ local AllowedPlaces = {
 }
 
 if not AllowedPlaces[game.PlaceId] then
-    Players.LocalPlayer:Kick("Bạn không ở đúng game được hỗ trợ!")
+    Players.LocalPlayer:Kick("Access Denied: Unauthorized Game Instance.")
 else
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Ebeexah/ebesitickank/refs/heads/main/99NightsintheForest.lua"))()
 end
